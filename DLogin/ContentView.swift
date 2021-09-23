@@ -19,3 +19,13 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct LoginView : View {
+    var body: some View {
+        VStack {
+            Image("logo")
+                .padding(.horizontal)
+                
+        }
+    }
+}
